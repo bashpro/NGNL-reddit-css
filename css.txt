@@ -1,0 +1,34 @@
+ul.tabmenu {
+    top: 125px;
+    left: 0px;
+}
+
+#header-bottom-left {
+    height: 160px;
+    background-color: #f8f8f8;
+}
+
+li.res-tabmenu-button.res-toggle-filterline-visibility a {
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
+
+li.res-tabmenu-button.res-show-images a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a.choice {
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: all 0.2s ease;
+}
+
+div.md h4 a {
+    top: 149px;
+    padding: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    left: 560px;
+}
