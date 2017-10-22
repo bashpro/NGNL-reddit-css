@@ -1,4 +1,4 @@
-# NGNL-reddit-css
+# NGNL-reddit-css 
 Stylesheet for no game no life subreddit
 
 >ver 0.0.1 is quite old and pointless
