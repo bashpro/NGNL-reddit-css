@@ -1,21 +1,129 @@
-ul.tabmenu {
-    top: 125px;
-    left: 0px;
+#RESShortcutsEditContainer {
+    background-color: white;
+}
+
+#RESShortcutsLeft {
+    background-color: white;
+}
+
+#RESShortcutsRight {
+    background-color: white;
+}
+
+#RESShortcutsSort {
+    background-color: white;
+}
+
+#header {
+    border-bottom: 0px;
 }
 
 #header-bottom-left {
-    height: 160px;
     background-color: #f8f8f8;
+    height: 160px;
 }
 
-li.res-tabmenu-button.res-toggle-filterline-visibility a {
-    padding-top: 5px;
-    padding-bottom: 4px;
+#header-bottom-left .tabmenu li a:hover {
+    color: white;
+    transition: all 0.2s;
 }
 
-li.res-tabmenu-button.res-show-images a {
-    padding-top: 5px;
-    padding-bottom: 5px;
+#header-bottom-left .tabmenu li.selected a {
+    text-shadow: 0px 0px 0px;
+}
+
+#header-bottom-left .tabmenu li.selected a:hover {
+    color: white;
+    transition: all 0.2s;
+}
+
+#header-bottom-right {
+    background-color: #f8f8f8;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    position: absolute;
+    right: 5px;
+    top: 153px;
+}
+
+#search input[type=submit] {
+    margin-right: 5px;
+}
+
+#sr-header-area {
+    background-color: rgba(255,255,255,0.1);
+    border: 0px;
+    height: 20px;
+}
+
+#srDropdownContainer {
+    padding: 0px 5px 5px 5px;
+    transition: all 0.2s ease;
+}
+
+#srDropdownContainer:hover {
+    background-color: #fb608b;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+#srLeftContainer {
+    padding-left: 0px;
+}
+
+.content {
+    margin: 0px;
+}
+
+.entry {
+    padding: 0px auto 0px 8px;
+    max-width: 900px;
+    min-width: 600px;
+}
+
+.entry:before {
+    height: 20px;
+    width: 5px;
+}
+
+.link .midcol {
+    margin: auto 0px auto 0px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.link .rank {
+    margin: auto 0px auto 0px;
+}
+
+.listing-page .sitetable .link {
+    background-color: rgba(255,255,255, 0.7);
+    margin-top: 7px;
+}
+
+.listing-page .sitetable .link, .organic-listing, .stylesheet-customize-container, .submit-page .content, .wiki-page .wiki-page-content, .wiki-page .wikititle, .search-page .search-result-listing, .comments-page .sitetable .link {
+    background-color: rgba(255,255,255,0.4);
+    display: flex;
+    max-height: 800px;
+    min-height: 65px;
+}
+
+.res .link .entry.RES-keyNav-activeElement:before, .res.res-nightmode .link .entry.RES-keyNav-activeElement:before, html[lang="nm"] .res .link .entry.RES-keyNav-activeElement:before {
+    border-left: 3px solid rgba(251, 96, 139,0.6);
+}
+
+.side .md h4 a {
+    color: black;
+    font-family: arial;
+}
+
+.thing.stickied.link a.title {
+    color: rgb(251, 96, 139);
+}
+
+a {
+    text-decoration: none;
 }
 
 a.choice {
@@ -25,10 +133,198 @@ a.choice {
     transition: all 0.2s ease;
 }
 
+a.subbarlink {
+    padding: 5px;
+    transition: all 0.2s ease;
+}
+
+a.subbarlink.undefined {
+    font-family: arial;
+}
+
+a.subbarlink:hover {
+    background: #fb608b;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+a.thumbnail.invisible-when-pinned.self.may-blank.loggedin {
+    margin: auto 0px auto 0px ;
+}
+
+a.thumbnail.invisible-when-pinned.spoiler.may-blank.loggedin {
+    margin: auto 0px auto 0px;
+}
+
+a.title.may-blank.loggedin.outbound {
+    color: purple;
+}
+
+div.content {
+    top: 155px;
+}
+
+div.entry.unvoted.RES-keyNav-activeElement:before {
+    border-left: 3px solid rgba(251, 96, 139,0.6);
+}
+
 div.md h4 a {
-    top: 149px;
+    fomt-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    left: 497px;
     padding: 5px;
     padding-bottom: 5px;
-    font-size: 10px;
-    left: 560px;
+    top: 150px;
+    transition: 0.2s ease;
+}
+
+div.md h4 a:first-child:hover {
+    color: white;
+    trnsition: all 0.2s ease;
+}
+
+div.md p a {
+}
+
+div.md.RESDialogContents blockquote {
+    background-image: url("https://discordapp.com/assets/2c21aeda16de354ba5334551a883b481.png");
+    font-size: 12px;
+    position: fixed;
+    right: 400px;
+    top: 135px;
+    z-index: 99;
+}
+
+div.res-icon {
+    background-color: white;
+}
+
+div.res-userbar-toggle {
+    right: 5px;
+    top: 152px;
+}
+
+div.side {
+    border: none;
+    margin: 2px;
+}
+
+div.thing.id-t3_471ytu.odd.stickied.link.self {
+    background-color: rgba(255,255,255,0.4);
+}
+
+div.thing.id-t3_68fbb2.even.link.self {
+    background-color: rgba(255,255,255,0.4);
+}
+
+li.res-tabmenu-button.res-show-images a {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+li.res-tabmenu-button.res-toggle-filterline-visibility a {
+    padding-bottom: 4px;
+    padding-top: 5px;
+}
+
+p a strong {
+    color: rgba(255,255,255,0);
+    font-family: arial;
+    font-size: 14px;
+    height: 15px;
+    left: 500px;
+    position: absolute;
+    top: 156px;
+    transition: all 0.2s ease;
+    width: 150px;
+    z-index: 9999;
+}
+
+p a strong::before {
+    content: url("http://www.teamfortress.tv/img/icons/discord.png")no-repeat;
+}
+
+p a strong:before {
+    background-image: url('https://b.thumbs.redditmedia.com/xkLvNcqvxcR2lgPIJMjjwTmBbUiiWRev_lDMJG_mRXo.png') ;
+    background-position: 0 -128px;
+    background-size: 18px;
+    content: "";
+    display: inline-block;
+    height: 16px;
+    margin-right: .5em;
+    position: relative;
+    width: 18px;
+}
+
+p a strong:hover {
+    color: rgba(101,119,195,1);
+    transistion: all 0.2s ease;
+    width: 150px;
+}
+
+span.separator {
+    display: none;
+}
+
+thing.id-t3_68fbb2.even.link.self {
+    background-color: rgba(255,255,255,0.4);
+}
+
+ul.tabmenu {
+    left: 0px;
+    top: 125px;
+}
+
+ul.tabmenu a {
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+a[href="#testing"] {
+    font-size: 20px;
+    height: 30px;
+    left: 2px;
+    position: absolute;
+    top: 150px;
+    width: 90px;
+    z-index: 999;
+}
+
+a[href="#testing"]::before {
+    content: 'hello';
+    padding: 10px;
+    postion: relative;
+}
+
+a[href="testing"] {
+    font: 50px;
+}
+
+div.a[href="#testing"] {
+    height: 100px;
+    width: 200px;
+}
+
+.stylesheet-customize-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.res-commentBoxes .comment {
+    background-color: rgba(255,255,255,0.6);
+}
+
+span.hover.pagename.redditname a {
+    top: 0px;
+    height: 130px;
+    background-position: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    width: 270px;
+    padding-top: 5pxpx;
+    padding-right: 0;
+    padding-bottom: 5pxpx;
+    padding-left: 0;
 }
