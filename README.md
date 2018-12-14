@@ -5,6 +5,8 @@ Stylesheet for no game no life subreddit
 
 >ver 2.0.0 includes many changes that were not documented, but the changes are easy to spot!
 
+Updates will appear here (soon):
+
 # Instructions
 
 1. Instal stylebot
