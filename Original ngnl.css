@@ -14,6 +14,7 @@
 }
 #header{
     background-color:#FFF;
+    border-bottom: 0px;
 }
 
 .pagename a:hover{
@@ -22,7 +23,8 @@
 }
 
 #header-bottom-left {
-    height: 130px;                    
+    height: 160px;   
+    background-color: #f8f8f8;                 
     background:url(%%Banner-NGNL%%);
     /**Azuto made this banner**/
     background-repeat:repeat-x;
@@ -33,6 +35,31 @@
     -webkit-animation: moveIt 90s linear infinite;
     background-size: 1927px 130px;
 }
+
+#header-bottom-left .tabmenu li a:hover {
+    color: white;
+    transition: all 0.2s;
+}
+
+#header-bottom-left .tabmenu li.selected a {
+    text-shadow: 0px 0px 0px;
+}
+
+#header-bottom-left .tabmenu li.selected a:hover {
+    color: white;
+    transition: all 0.2s;
+}
+
+#header-bottom-right {
+    background-color: #f8f8f8;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    position: absolute;
+    right: 5px;
+    top: 153px;
+}
+
 
 /*===THE BANNER ANIMATION===*/
 
@@ -67,7 +94,80 @@
     vertical-align: middle;
     line-height: 20px;
 }
+#search input[type=submit] {
+    margin-right: 5px;
+}
 
+.content {
+    margin: 0px;
+}
+
+
+/*============TOP BAR MENU==========*/
+
+#sr-header-area {
+    background-color: rgba(255,255,255,0.1);
+    border: 0px;
+    height: 20px;
+}
+
+#srDropdownContainer {
+    padding: 0px 5px 5px 5px;
+    transition: all 0.2s ease;
+}
+
+#srDropdownContainer:hover {
+    background-color: #fb608b;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+#srLeftContainer {
+    padding-left: 0px;
+}
+
+
+/*============BODY ELEMENTS=============*/
+
+.entry {
+    padding: 0px auto 0px 8px;
+    max-width: 900px;
+    min-width: 600px;
+}
+
+.entry:before {
+    height: 20px;
+    width: 5px;
+}
+
+
+/*============CARDS/POSTS=============*/
+
+.link .midcol {
+    margin: auto 0px auto 0px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.link .rank {
+    margin: auto 0px auto 0px;
+}
+
+.listing-page .sitetable .link {
+    background-color: rgba(255,255,255, 0.7);
+    margin-top: 7px;
+}
+
+.listing-page .sitetable .link, .organic-listing, .stylesheet-customize-container, .submit-page .content, .wiki-page .wiki-page-content, .wiki-page .wikititle, .search-page .search-result-listing, .comments-page .sitetable .link {
+    background-color: rgba(255,255,255,0.4);
+    display: flex;
+    max-height: 800px;
+    min-height: 65px;
+}
+
+.thing.stickied.link a.title {
+    color: rgb(251, 96, 139);
+}
 
 /*============TABS=============*/
 
